@@ -60,13 +60,5 @@ class RegistrationUtilTest {
         assertThat(result).isFalse()
     }
 
-    @Test
-    fun `less than 2 digit password returns false`() {
-        val result = RegistrationUtil.validateRegistrationInput(
-            "Philipp",
-            "abcdefg5",
-            "abcdefg5"
-        )
-        assertThat(result).isFalse()
-    }
+
 }
