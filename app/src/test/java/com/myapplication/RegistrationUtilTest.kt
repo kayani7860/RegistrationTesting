@@ -57,7 +57,7 @@ class RegistrationUtilTest {
             "",
             ""
         )
-        assertThat(result).isFalse()
+        assertThat(result).isTrue()
     }
 
 
